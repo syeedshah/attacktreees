@@ -1,0 +1,25 @@
+@import "_variables";
+
+.alerts {
+  left: @gutter;
+  margin-top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.alert {
+  color: @message-text;
+  display: none;
+  float: left;
+  padding: 7px 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.error {
+  background: @error-colour;
+}
+
+.success {
+  background: @success-colour;
+}
